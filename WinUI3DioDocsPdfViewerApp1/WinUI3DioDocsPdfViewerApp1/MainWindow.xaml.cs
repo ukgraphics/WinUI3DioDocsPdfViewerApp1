@@ -27,9 +27,9 @@ namespace WinUI3DioDocsPdfViewerApp1
         {
             this.InitializeComponent();
 
-            //MyWebView.Source = new Uri("ms-appx://wwwroot/index.html");
+            MyWebView.Source = new Uri("ms-appx-web:///wwwroot/index.html");
 
-            MyWebView.Source = new Uri("file:///C:/Users/kuni/Desktop/WinUI3DioDocsPdfViewerApp1/WinUI3DioDocsPdfViewerApp1/WinUI3DioDocsPdfViewerApp1/wwwroot/index.html");
+            //MyWebView.Source = new Uri("file:///C:/Users/kuni/Desktop/WinUI3DioDocsPdfViewerApp1/WinUI3DioDocsPdfViewerApp1/WinUI3DioDocsPdfViewerApp1/wwwroot/index.html");
 
         }
 
